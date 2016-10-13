@@ -9,10 +9,9 @@ Created console based Java application that read commands from console and print
 To run use the following command: (note this jar is built using jdk1.8)
 java -jar CapitalOneExercise-1.jar 
 
-#how to rebuild:
+#How to rebuild:
 clone https://github.com/bcherra/CapitalOneExercise/new/InitialCheckin
-to build in other than jdk1.8 please cahnge pom.xml
- from 
+Change pom.xml to correct jdk version.
   <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
@@ -24,7 +23,7 @@ to build in other than jdk1.8 please cahnge pom.xml
         
       </plugin>
       
-      to
+      TO
       
        <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
