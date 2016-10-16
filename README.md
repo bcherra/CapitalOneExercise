@@ -7,6 +7,7 @@ The application provide following features:
   2. Implemented getAllTransactions, it caluclates the average amounts and print the results.
   3. Implemented getAllTransactions --ignore-donuts, it filters out results to exclude Dunkin Donuts and Krispt Kereme            merchant transactions.'
   4. Implemented getAllTransactions --ignore-cc-payment, filter out transactions based on the creteria defined in                requirments. The logic used assume that transactions are in order of time. If this is not true the ArrayList can be          sorted by implementing Comparable interface.
+ 
  #How to build
  To build clone the branch and use mvn command to build the solution. The build jar is an executable jar.
 
